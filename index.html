@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mates de Ajedrez - 6º Primaria</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .card:hover {
+      transform: translateY(-5px) scale(1.03);
+      background-color: #f0f9ff;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-100 to-blue-100 min-h-screen font-sans">
+  <header class="bg-blue-800 text-white p-8 shadow-lg">
+    <h1 class="text-4xl font-bold text-center">Proyecto Ajedrez - Mates Famosos</h1>
+    <p class="text-center text-lg mt-2">Un trabajo colaborativo de los alumnos de 6º de Primaria del <a href="https://www.colegiosanjoseastillero.com/">Colegio San José de Guarnizo (El Astillero)</a></p>
+  </header>
+
+  <main class="p-8 max-w-7xl mx-auto">
+    <section class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      
+      <!-- Tarjeta de ejemplo -->
+      <div class="card transition-all duration-300 ease-in-out bg-white rounded-2xl p-6 shadow-lg cursor-pointer hover:shadow-2xl">
+        <h2 class="text-2xl font-semibold text-blue-700 mb-2">Grupo Potaxie - Mate de la dama.</h2>
+        <p class="text-gray-700 mb-4">Un mate rápido y famoso que muestra la importancia del centro.</p>
+        <a href="/potaxie.html" target="_blank" class="inline-block mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Ver explicación</a>
+      </div>
+
+      <div class="card transition-all duration-300 ease-in-out bg-white rounded-2xl p-6 shadow-lg cursor-pointer hover:shadow-2xl">
+        <h2 class="text-2xl font-semibold text-green-700 mb-2">Grupo 2 - Mate del Loco</h2>
+        <p class="text-gray-700 mb-4">El mate más veloz del ajedrez. ¡Nunca muevas esos peones tan pronto!</p>
+        <a href="grupo2.html" target="_blank" class="inline-block mt-2 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition">Ver explicación</a>
+      </div>
+
+      <div class="card transition-all duration-300 ease-in-out bg-white rounded-2xl p-6 shadow-lg cursor-pointer hover:shadow-2xl">
+        <h2 class="text-2xl font-semibold text-purple-700 mb-2">Grupo 3 - Mate del Rey Ahogado</h2>
+        <p class="text-gray-700 mb-4">Un final elegante en el que el rey no tiene escapatoria sin estar en jaque.</p>
+        <a href="grupo3.html" target="_blank" class="inline-block mt-2 px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 transition">Ver explicación</a>
+      </div>
+
+      <!-- Agrega más tarjetas para más grupos aquí -->
+
+    </section>
+  </main>
+
+  <footer class="bg-blue-50 text-center text-sm text-gray-600 py-4 mt-12 border-t">
+    MIT License © 2025 Escuela Municipal de Ajedrez de Astillero – Proyecto educativo de Ajedrez en colaboración con el Colegio San José de Guarnizo ( El Astillero)
+  </footer>
+</body>
+</html>
